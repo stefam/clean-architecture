@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure.DataAccess\CleanArchitecture.Infrastructure.DataAccess.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure.Identity\CleanArchitecture.Infrastructure.Identity.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure.Logging\CleanArchitecture.Infrastructure.Logging.csproj" />
+  </ItemGroup>
+
+</Project>
