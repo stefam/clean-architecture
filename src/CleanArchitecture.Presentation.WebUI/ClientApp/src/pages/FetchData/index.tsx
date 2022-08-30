@@ -1,11 +1,11 @@
 import React from 'react';
+import { getWeatherForecast } from '../../services/weather';
 
 const FetchData = (): JSX.Element => {
     const [state, setState] = React.useState<any>({ forecasts: [], loading: true });
 
     const populateWeatherData = async () => {
-        const response = await fetch('api/weatherforecast');
-        const data = await response.json();
+        const data = await getWeatherForecast();
         setState({ forecasts: data, loading: false });
     }
 

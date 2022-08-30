@@ -2,7 +2,6 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import AppRoutes from './routes/AppRoutes';
 import Layout from './components/Layout';
-import './index.css';
 
 const App = (): JSX.Element => {
     return (

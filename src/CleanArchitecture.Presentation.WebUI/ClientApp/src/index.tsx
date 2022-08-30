@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import App from './App';
-import './index.css';
+import './index.scss';
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement
