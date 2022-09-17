@@ -1,4 +1,4 @@
-namespace CleanArchitecture.Presentation.WebUI.AcceptanceTests
+namespace CleanArchitecture.Presentation.WebUI.Tests.Acceptance
 {
     public class UnitTest1
     {

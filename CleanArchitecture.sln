@@ -27,13 +27,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastru
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentation.WebAPI", "src\CleanArchitecture.Presentation.WebAPI\CleanArchitecture.Presentation.WebAPI.csproj", "{D6E8E8EB-D73C-4ACD-8370-6D365066655D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core.Application.UnitTests", "tests\CleanArchitecture.Core.Application.UnitTests\CleanArchitecture.Core.Application.UnitTests.csproj", "{AE849986-601B-42CB-BEE6-894F46610F1D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core.Application.Tests.Unit", "tests\CleanArchitecture.Core.Application.UnitTests\CleanArchitecture.Core.Application.Tests.Unit.csproj", "{AE849986-601B-42CB-BEE6-894F46610F1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core.Application.IntegrationTests", "tests\CleanArchitecture.Core.Application.IntegrationTests\CleanArchitecture.Core.Application.IntegrationTests.csproj", "{6BFBEDAF-04F6-4779-812D-49106A7E5AEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Core.Application.Tests.Integration", "tests\CleanArchitecture.Core.Application.IntegrationTests\CleanArchitecture.Core.Application.Tests.Integration.csproj", "{6BFBEDAF-04F6-4779-812D-49106A7E5AEA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentation.WebUI.AcceptanceTests", "tests\CleanArchitecture.Presentation.WebUI.AcceptanceTests\CleanArchitecture.Presentation.WebUI.AcceptanceTests.csproj", "{E729636B-E2BC-47F1-B593-210DE600F2AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentation.WebUI.Tests.Acceptance", "tests\CleanArchitecture.Presentation.WebUI.AcceptanceTests\CleanArchitecture.Presentation.WebUI.Tests.Acceptance.csproj", "{E729636B-E2BC-47F1-B593-210DE600F2AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArchitecture.Presentation.WebUI", "src\CleanArchitecture.Presentation.WebUI\CleanArchitecture.Presentation.WebUI.csproj", "{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentation.WebUI", "src\CleanArchitecture.Presentation.WebUI\CleanArchitecture.Presentation.WebUI.csproj", "{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{7A503886-76EE-40E3-8EF5-4CF292DC9FD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "frontend", "frontend", "{26E08401-27F1-40F3-B90E-4D82CFDD49B3}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "cleanarchitecture.presentation.onlinestore", "src\CleanArchitecture.Presentation.OnlineStore\cleanarchitecture.presentation.onlinestore.esproj", "{D4F0568F-3ED1-4104-9941-C1AF339E3441}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -85,6 +91,12 @@ Global
 		{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -104,6 +116,9 @@ Global
 		{6BFBEDAF-04F6-4779-812D-49106A7E5AEA} = {175DDF61-ACE7-4565-9FE1-3A077694B243}
 		{E729636B-E2BC-47F1-B593-210DE600F2AC} = {175DDF61-ACE7-4565-9FE1-3A077694B243}
 		{BD7D5A61-857E-4AD2-BB58-F1192FF5BD1E} = {60D2ED20-EA3A-4D60-B13C-531F2BF975B1}
+		{7A503886-76EE-40E3-8EF5-4CF292DC9FD9} = {60D2ED20-EA3A-4D60-B13C-531F2BF975B1}
+		{26E08401-27F1-40F3-B90E-4D82CFDD49B3} = {60D2ED20-EA3A-4D60-B13C-531F2BF975B1}
+		{D4F0568F-3ED1-4104-9941-C1AF339E3441} = {26E08401-27F1-40F3-B90E-4D82CFDD49B3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3AE4D368-9953-46DD-82AA-9D4674D1CCAA}

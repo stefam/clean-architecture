@@ -1,4 +1,4 @@
-namespace CleanArchitecture.Core.Application.IntegrationTests
+namespace CleanArchitecture.Core.Application.Tests.Integration
 {
     public class UnitTest1
     {
