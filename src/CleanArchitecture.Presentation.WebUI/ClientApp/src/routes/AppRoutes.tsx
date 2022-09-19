@@ -1,3 +1,4 @@
+import Account from "../pages/Account";
 import Counter from "../pages/Counter";
 import FetchData from "../pages/FetchData";
 import Home from "../pages/Home";
@@ -14,6 +15,10 @@ const AppRoutes = [
     {
         path: '/fetch-data',
         element: <FetchData />
+    },
+    {
+        path: '/account',
+        element: <Account />
     }
 ];
 

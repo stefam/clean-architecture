@@ -29,6 +29,9 @@ const NavMenu = (): JSX.Element => {
                         <NavItem>
                             <NavLink tag={Link} className="text-dark" to="/fetch-data">Fetch data</NavLink>
                         </NavItem>
+                        <NavItem>
+                            <NavLink tag={Link} className="text-dark" to="/account">Account</NavLink>
+                        </NavItem>
                     </ul>
                 </Collapse>
             </Navbar>
