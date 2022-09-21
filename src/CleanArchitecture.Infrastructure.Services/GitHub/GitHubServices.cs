@@ -1,5 +1,7 @@
 ﻿using CleanArchitecture.Core.Application.Common.Interfaces;
 using CleanArchitecture.Core.Domain.Entities;
+using Refit;
+using System.Net;
 
 namespace CleanArchitecture.Infrastructure.Services.GitHub;
 
@@ -12,8 +14,18 @@ public class GitHubServices : IGitHubServices
 
     public async Task<bool> IsValidUser(string username)
     {
-        var user = await GetProfile(username);
-        return user is not null;
+        try
+        {
+            var user = await GetProfile(username);
+            return user is not null;
+        }
+        catch (ApiException ex)
+        {
+            if (ex.StatusCode == HttpStatusCode.NotFound)
+                return false;
+
+            throw;
+        }
     }
 
     private async Task<GitHubUser> GetProfile(string userName)

@@ -31,7 +31,7 @@ public class CreateAccountCommandHandler : IRequestHandler<CreateAccountCommand,
     public async Task<Account> Handle(CreateAccountCommand request, CancellationToken cancellationToken)
     {
         var validator = new CreateAccountCommandValidator(_githubServices);
-        validator.ValidateAndThrow(request);
+        await validator.ValidateAndThrowAsync(request);
 
         var account = new Account
         {
