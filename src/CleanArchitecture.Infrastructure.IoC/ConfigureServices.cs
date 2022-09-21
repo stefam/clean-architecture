@@ -2,6 +2,7 @@
 using CleanArchitecture.Infrastructure.DataAccess;
 using CleanArchitecture.Infrastructure.Identity;
 using CleanArchitecture.Infrastructure.Logging;
+using CleanArchitecture.Infrastructure.Services;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CleanArchitecture.Infrastructure.IoC;
@@ -14,6 +15,7 @@ public static class ConfigureServices
         services.AddApplicationServices();
         services.AddLoggingServices();
         services.AddIdentityServices();
+        services.AddExternalServices();
 
         return services;
     }

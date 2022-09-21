@@ -34,6 +34,7 @@
     <None Remove="ClientApp\src\routes\AppRoutes.tsx" />
     <None Remove="ClientApp\src\services\account\models.ts" />
     <None Remove="ClientApp\src\services\common\index.ts" />
+    <None Remove="ClientApp\src\services\weather\models.ts" />
     <None Remove="ClientApp\src\serviceWorkerRegistration.ts" />
   </ItemGroup>
 
@@ -57,6 +58,9 @@
     <TypeScriptCompile Include="ClientApp\src\routes\AppRoutes.tsx" />
     <TypeScriptCompile Include="ClientApp\src\services\account\models.ts" />
     <TypeScriptCompile Include="ClientApp\src\services\common\index.ts" />
+    <TypeScriptCompile Include="ClientApp\src\services\weather\models.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="ClientApp\src\serviceWorkerRegistration.ts" />
   </ItemGroup>
 

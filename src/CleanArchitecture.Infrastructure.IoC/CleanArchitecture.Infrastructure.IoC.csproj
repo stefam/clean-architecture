@@ -10,6 +10,7 @@
     <ProjectReference Include="..\CleanArchitecture.Infrastructure.DataAccess\CleanArchitecture.Infrastructure.DataAccess.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Infrastructure.Identity\CleanArchitecture.Infrastructure.Identity.csproj" />
     <ProjectReference Include="..\CleanArchitecture.Infrastructure.Logging\CleanArchitecture.Infrastructure.Logging.csproj" />
+    <ProjectReference Include="..\CleanArchitecture.Infrastructure.Services\CleanArchitecture.Infrastructure.Services.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,6 +1,6 @@
 namespace CleanArchitecture.Core.Application.Services.WeatherForecast.Queries;
 
-public class WeatherForecast
+public class WeatherForecastDto
 {
     public DateTime Date { get; set; }
 

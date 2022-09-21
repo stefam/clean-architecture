@@ -5,7 +5,7 @@ namespace CleanArchitecture.Core.Domain.Entities;
 
 public class Account : BaseEntity
 {
-    public int Name { get; set; }
+    public string? Name { get; set; }
 
     public string? Email { get; set; }
 

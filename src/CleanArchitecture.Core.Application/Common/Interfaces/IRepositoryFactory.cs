@@ -2,5 +2,5 @@
 
 public interface IRepositoryFactory
 {
-    IRepository CreateRepository();
+    IRepository Create();
 }
