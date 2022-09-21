@@ -10,7 +10,13 @@ public class GitHubServices : IGitHubServices
     public GitHubServices(IGitHubClient gitHubClient) =>
         _gitHubClient = gitHubClient;
 
-    public async Task<GitHubUser> GetProfile(string userName)
+    public async Task<bool> IsValidUser(string username)
+    {
+        var user = await GetProfile(username);
+        return user is not null;
+    }
+
+    private async Task<GitHubUser> GetProfile(string userName)
     {
         var user = await _gitHubClient.GetUser(userName);
 

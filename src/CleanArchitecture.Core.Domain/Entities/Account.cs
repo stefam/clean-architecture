@@ -9,5 +9,7 @@ public class Account : BaseEntity
 
     public string? Email { get; set; }
 
+    public string? GitHubUsername { get; set; }
+
     public AccountType Type { get; set; }
 }
