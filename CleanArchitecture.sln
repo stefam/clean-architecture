@@ -31,7 +31,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Infrastructure.Services", "src\CleanArchitecture.Infrastructure.Services\CleanArchitecture.Infrastructure.Services.csproj", "{7F945ADF-1A42-4884-93B0-79BCE64EFFFC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreanArchitecture.Presentation.WebUI", "src\CreanArchitecture.Presentation.WebUI\CreanArchitecture.Presentation.WebUI.csproj", "{58457FF4-E614-4AA8-A7B1-5E99C0DDCE91}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CleanArchitecture.Presentation.WebUI", "src\CleanArchitecture.Presentation.WebUI\CleanArchitecture.Presentation.WebUI.csproj", "{58457FF4-E614-4AA8-A7B1-5E99C0DDCE91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
